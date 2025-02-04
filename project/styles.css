@@ -1,0 +1,66 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Media Queries for Responsive Design */
+/* Small Screens (Mobile) */
+@media (max-width: 600px) {
+    body {
+        background-color: #e2f7e2;
+    }
+
+    header {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+/* Medium Screens (Tablets) */
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Large Screens (Desktops) */
+@media (min-width: 769px) {
+    header {
+        font-size: 30px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
